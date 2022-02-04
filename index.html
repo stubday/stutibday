@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>HAPPY BIRTHDAY STUTI</title>
+  <link rel="shortcut icon" href="favicon.png">
+  <link href="static/css/section1.css" rel="stylesheet">
+  <link href="static/css/section2.css" rel="stylesheet">
+  <link href="static/css/section3.css" rel="stylesheet">
+  <link href="static/css/section4.css" rel="stylesheet">
+  <link href="static/css/section5.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.8/jquery.fullPage.min.css" rel="stylesheet">
+</head>
+<body>
+  <audio controls autoplay loop  style="height: 8px;">
+    <source src="music/Stuti.mp3" id="my_audio" type="audio/mp3" />
+    Your browser does not support the audio element.
+  </audio>
+  
+  <div id="fullPage">
+    <div class="section">
+      <div id="app">
+        <div class="quotes verticalcenter">
+          <p class="q1">I may not always be with you :(</p>
+          <p class="q2">But, I will be always there for you :)</p>
+        </div>
+        <div class="main-section">
+          <div class="heart"></div>
+          <div class="top">HAPPY</div>
+          <div class="love">BIRTH</div>
+          <div class="bottom">DAY</div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div id="content" class="content"></div>
+    </div>
+    <div class="section section4">
+      <div class="paper">
+        <div class="lines">
+          <div class="text" spellcheck="false">
+            To Stu, <br /><br />
+            <span class='sentence sentence1'></span>
+            <br />
+            <span class='sentence sentence2'></span>
+            <br />
+            <span class='sentence sentence3'></span>
+            <br />
+            <span class='sentence sentence4'></span>
+            <br />
+            <span class='sentence sentence5'></span>
+            <br />
+            <span class='sentence sentence6'></span>
+            <br />
+            <span class='sentence sentence7'></span>
+            <br />
+            <span class='sentence sentence8'></span>
+            <br />
+            <span class='sentence sentence9'></span>
+            <br />
+            <span class='sentence sentence10'></span>
+          </div>
+        </div>
+        <div class="holes hole-top"></div>
+        <div class="holes hole-middle"></div>
+        <div class="holes hole-bottom"></div>
+      </div>
+    </div>
+    <div class="section section5">
+      <div id="wrapper">
+        <div id="candle-1" class="candle small">
+          <div class="eye"></div>
+          <div class="eye"></div>
+          <div class="flame"></div>
+        </div>
+         <div class="flame-halo"></div>
+        <div id="candle-2" class="candle">
+          <div class="eye"></div>
+          <div class="eye"></div>
+          <div class="mouth"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.2/jquery.fullPage.min.js"></script>
+  <script src='http://css-tricks.com/examples/BlurredText/js/jquery.lettering.js'></script>
+  <script src="static/js/section2.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.4/typed.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      var t1 = new TimelineMax({
+        repeat: -1
+      });
+
+      $('#fullPage').fullpage({
+        afterLoad: function(link, index){
+          switch (index){
+              
+            case 3:
+              if(($(".sentence1").html() === '') || ($(".sentence10").html() !== '')) {
+                
+                $(".sentence").empty();
+                $('.typed-cursor').remove();
+
+                $(".sentence1").typed({
+                  strings: ["First of all I wish you a very happy 20th birthday", "Accompanied you lately<(￣︶￣)>"],
+                  typeSpeed: 200,
+                  backSpeed: 50,
+                  cursorChar: "♡",
+                  loop: false,
+                  callback: function() {
+                    $(".sentence2").typed({
+                      strings: ["Sorry to break some peace by walking into your life", "But I think it's okay."],
+                      startDelay: 1000,
+                      typeSpeed: 200,
+                      backSpeed: 50,
+                      cursorChar: "♡",
+                      callback: function() {
+                        $(".sentence3").typed({
+                          strings: ["Your love for life warms my heart", "I just want to always have a smile on your face(￣ˇ￣)"],
+                          startDelay: 1000,
+                          typeSpeed: 200,
+                          backSpeed: 50,
+                          cursorChar: "♡",
+                          callback: function() {
+                            $(".sentence4").typed({
+                              strings: ["This is not a love letter", "Please smile now ╮(￣▽￣)╭"],
+                              startDelay: 1000,
+                              typeSpeed: 200,
+                              backSpeed: 50,
+                              cursorChar: "♡",
+                              callback: function() {
+                                $(".sentence5").typed({
+                                  strings: ["In the coming year, you will face many opportunities and challenges", "I am confident you will grab all", "I hope that I can build a stronger sense of trust in your heart", "After all, you are queen(￣0 ￣)y"],
+                                  startDelay: 1000,
+                                  typeSpeed: 200,
+                                  backSpeed: 50,
+                                  cursorChar: "♡",
+                                  callback: function() {
+                                    $(".sentence6").typed({
+                                      strings: ["Generally speaking, on the sixth line, I usually start share our memories", "However, this time the page has only 10 lines", "So, let me make a few wishes for you (=￣ω￣=)"],
+                                      startDelay: 1000,
+                                      typeSpeed: 200,
+                                      backSpeed: 50,
+                                      cursorChar: "♡",
+                                      callback: function() {
+                                        $(".sentence7").typed({
+                                          strings: ["I hope I can accompany you to run and climb mountains", "I hope you have good fortune and all happiness in the world"],
+                                          startDelay: 1000,
+                                          typeSpeed: 200,
+                                          backSpeed: 50,
+                                          cursorChar: "♡",
+                                          callback: function() {
+                                            $(".sentence8").typed({
+                                              strings: ["I hope I can accompany you to eat just right", "Hope to share happiness with each other"],
+                                              startDelay: 1000,
+                                              typeSpeed: 200,
+                                              backSpeed: 50,
+                                              cursorChar: "♡",
+                                              callback: function() {
+                                                $(".sentence9").typed({
+                                                  strings: ["Ups and downs ahead", "The journey is short and long", "Hope it gonna perfect for you"],
+                                                  startDelay: 1000,
+                                                  typeSpeed: 200,
+                                                  backSpeed: 50,
+                                                  cursorChar: "♡",
+                                                  callback: function() {
+                                                    $(".sentence10").typed({
+                                                      strings: ["Turn the page and blow out the candles", "don't regret it[]~(￣▽￣)~*"],
+                                                      startDelay: 1000,
+                                                      typeSpeed: 200,
+                                                      backSpeed: 50,
+                                                      cursorChar: "♡",
+                                                    });
+                                                  }
+                                                });
+                                              }
+                                            });
+                                          }
+                                        });
+                                      }
+                                    });
+                                  }
+                                });
+                              }
+                            });
+                          }
+                        });
+                      }
+                    });
+                  }
+                });
+              }
+              
+              break;
+
+            case 4:
+                
+              c1 = $('#candle-1'),
+              c2 = $('#candle-2'),
+              f = c1.find('.flame'),
+              m = c2.find('.mouth'),
+
+              fTween = TweenMax.to(f, 0.3, {
+                width: 27,
+                backgroundColor: 'yellow',
+                repeat: -1,
+                yoyo: true
+              });
+
+              if((t1.progress() > 0) && (t1.progress() < 1))
+              {
+                t1.progress(0);
+              }
+              else
+              {
+                t1.add(
+                  [
+                    TweenMax.to(c2, 0.1, {
+                      scale: 1.2,
+                      transformOrigin: "center bottom"
+                    }),
+                    TweenMax.to(m, 0.7, {
+                      scale: 5,
+                      transformOrigin: "center center",
+                      force3D: false
+                    })
+                  ]
+                ).add(
+                  [
+                    TweenMax.to(c2, 0.7, {
+                      scale: 1,
+                      transformOrigin: "center bottom"
+                    }),
+                    TweenMax.to(m, 0.7, {
+                      scale: 1.1,
+                      transformOrigin: "center center",
+                      force3D: false
+                    })
+                  ]
+                ).to(m, 1, {
+                  width: 100,
+                  borderRadius: 0,
+                  x: -300,
+                  autoAlpha: 0
+                }, 1.2)
+                .to(c1, 0.3, {
+                  x: -3,
+                  repeat: 4,
+                  yoyo: true
+                }, 1.3)
+                .to([f,'.flame-halo'], 0.1, {
+                  autoAlpha: 0,
+                  scale: 0.5
+                }, 1.3)
+                .add([
+                  TweenMax.to(c1, 1, {
+                    height: "-=20",
+                    scaleX: 1.2,
+                    backgroundColor: "#FFCCCC",
+                    transformOrigin: "center center"
+                  }),
+                  TweenMax.to(c1.find('.eye'), 1, {
+                    height: "-=5"
+                  }),
+                ])
+                .to(c1, 0.2, {
+                  x: "+=20",
+                  repeat: 4,
+                  yoyo: true
+                }).add(
+                  [
+                    TweenMax.to(f, 0.2, {
+                      autoAlpha: 1,
+                      scale: 1.2
+                    })
+
+                  ]
+                ).add(
+                  [
+                    TweenMax.to(c1, 0.5, {
+                      height: "+=20",
+                      scaleX: 1,
+                      x: "-=20",
+                    })
+
+                  ]
+                )
+              }
+              break;
+
+            default:
+              break;
+          }
+        },
+
+        onLeave: function(link, index){
+          switch (index){
+
+            default:
+              break;
+          }
+        }
+      });
+
+      $('.q1').delay(1000).fadeIn(300).delay(2000).fadeOut(300, function () {
+        $('.q2').delay(1000).fadeIn(300 ).delay(2500).fadeOut(300, function () {
+          $('.quotes').fadeOut(300);
+          $('.main-section').delay(1000).fadeIn(300, function () {
+            
+          });
+        });
+      });
+    });
+
+    $('audio')[0].volume = 0.4;
+
+    $("#top").lettering();
+    $("#bottom").lettering();
+
+  </script>
+</body>
+</html>
