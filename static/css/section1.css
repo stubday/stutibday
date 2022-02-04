@@ -73,8 +73,9 @@
   font-family: Hammersmith One;
   font-size: 40px;
   width: 200px;
-  margin: auto;
-  position: relative;
+  position: absolute;
+  margin-top: 110px;
+  margin-left: 187px;
 }
 #top span {
   height: 350px;
