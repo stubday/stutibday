@@ -74,8 +74,8 @@
   font-size: 40px;
   width: 200px;
   position: absolute;
-  margin-top: 110px;
-  margin-left: 187px;
+  margin-top: 113px;
+  margin-left: 193px;
 }
 #top span {
   height: 350px;
@@ -102,9 +102,10 @@
 	transform: rotate(36deg);
 }
 
-#botton{
-  margin-left: 229px;
-  margin-top: 300px;
+#bottom{
+  position: absolute;
+  margin-left: 222px;
+  margin-top: 330px;
 }
 
 
