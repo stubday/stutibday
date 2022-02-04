@@ -101,6 +101,12 @@
 	transform: rotate(36deg);
 }
 
+#botton{
+  margin-left: 229px;
+  margin-top: 300px;
+}
+}
+
 #bottom span {
   font-family: Hammersmith One;
   font-size: 40px;
