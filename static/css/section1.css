@@ -82,19 +82,20 @@
   margin-left: -10px;
   top: 110px;
 }
-#char1 {
+.char1 {
+  display: block;
 	transform: rotate(-36deg);
 }
-#char2 {
+.char2 {
 	transform: rotate(-18deg);
 }
-#char3 {
+.char3 {
 	transform: rotate(0deg);
 }
-#char4 {
+.char4 {
 	transform: rotate(18deg);
 }
-#char5 {
+.char5 {
 	transform: rotate(36deg);
 }
 
