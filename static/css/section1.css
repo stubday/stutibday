@@ -20,7 +20,7 @@
 .quotes {
   color: #ffffff;
   /* font-weight: bold; */
-  /* font-size: 4vw;  */
+  font-size: 7vh; 
   font-family: Cursive;
 }
 
@@ -28,12 +28,14 @@
   display: none;
   vertical-align: middle;
   font-size: 7vh;
+  left: 1rem;
+  margin-left: auto;
+  text-align: center;
 }
 
 .verticalcenter {  
   position: relative;  
   top: 45%;
-  left: 20%;
   -webkit-transform: translateY(-50%);  
   -o-transform: translateY(-50%);  
   transform: translateY(-50%);  
