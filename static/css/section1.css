@@ -20,14 +20,14 @@
 .quotes {
   color: #ffffff;
   /* font-weight: bold; */
-  font-size: 4vw; 
+  /* font-size: 4vw;  */
   font-family: Cursive;
 }
 
 .q1, .q2 {
   display: none;
   vertical-align: middle;
-  font-size: 4vw;
+  font-size: 7vh;
 }
 
 .verticalcenter {  
