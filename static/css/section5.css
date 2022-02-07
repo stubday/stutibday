@@ -100,3 +100,11 @@
   height: 170px;
   display: none;
 }
+
+
+.last {
+  font-size: 5.2vh;
+  color: #673c63;
+  font-family: cursive;
+  text-align: center;
+}
